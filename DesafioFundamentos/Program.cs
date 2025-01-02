@@ -53,7 +53,7 @@ while (exibirMenu)
     }
 
     Console.WriteLine("Pressione uma tecla para continuar");
-    Console.ReadLine();
+    Console.ReadKey(); // Aguardando o pressionamento de uma tecla
 }
 
 Console.WriteLine("O programa se encerrou");
